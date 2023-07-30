@@ -14,6 +14,7 @@ background-image: url('images/Object.png');
 background-repeat: no-repeat;
 color: #fff;
 }
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -32,4 +33,82 @@ color: #fff;
   color: white;
   font-size: medium;
   text-decoration: none;
+}
+
+.schooled {
+  text-align: center;
+}
+.schooled h1 {
+  text-align: center;
+  font-size: 100px;
+  letter-spacing: 10px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.schooled p {
+  word-spacing: 30px;
+  font-size: large;
+}
+
+button {
+    background: #C271FF;
+    color: white;
+    border-radius: 40px;
+    font-size: 12px;
+    padding: 15px;
+    margin: 40px 0;
+    border-color: #C271FF;
+}
+.pros-menu {
+  font-size: large;
+}
+.pros-menu h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.pros-menu h2 span {
+  color: #6d3199;
+}
+.pros-list {
+  display: flex;
+  justify-content: space-around;
+  flex: 100px;
+  flex-wrap: wrap;
+  padding: 50px 200px;
+}
+.pros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pros img {
+  height: 150px;
+  border-radius: 200px;
+}
+.pros p {
+  font-weight: lighter;
+}
+.pros p br {
+  justify-content: center;
+}
+.testimonial {
+  background: #C271FF;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px 150px 100px 120px;
+  color: white;
+  align-items: center;
+}
+.testimonial img {
+  height: 150px;
+  border-radius: 200px;
+}
+.videos {
+  font-size: large;
+}
+.videos h1 {
+  text-align: center;
+}
+.videos h1 span {
+  color: #6d3199;
 }
