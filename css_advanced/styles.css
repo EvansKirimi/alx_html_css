@@ -112,3 +112,33 @@ button {
 .videos h1 span {
   color: #6d3199;
 }
+.videos-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex: 100px;
+  padding: 50px 100px;
+  
+}
+.rater {
+  display: flex;
+}
+.rater h4 {
+  color: #6d3199;
+}
+.rater img {
+  height: 40px;
+  border-radius: 200px;
+}
+.rating {
+  display: flex;
+  font-size: small;
+}
+.rating img {
+  height: 15px;
+}
+.vids {
+  height: 150px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
